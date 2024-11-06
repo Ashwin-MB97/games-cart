@@ -5,13 +5,14 @@ import { BsToggleOn } from "react-icons/bs";
 import { BsToggleOff } from "react-icons/bs";
 import { changeTheme } from "../redux/features/ThemeSlice";
 import { FaCartShopping } from "react-icons/fa6";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const { theme } = useSelector((state) => state.theme);
   const { cart } = useSelector((state) => state.cart);
   const dispatch = useDispatch();
   const location = useLocation();
+  const navigate = useNavigate();
   const showSearchBar = location.pathname === "/";
 
   const handleToggler = () => {
@@ -35,12 +36,13 @@ const Header = () => {
                 theme === "dark" ? "border-[#3C3C3C]" : "border-[#E0E0E0]"
               } h-10 w-80 rounded-lg p-2 bg-transparent border`}
               name="game"
+              autoComplete="off"
               type="text"
               placeholder="search games..."
             />
           </form>
         )}
-        <div className="flex items-center gap-5 order-2 md:order-3">
+        <div className="flex items-center gap-5 order-2 md:order-3 cursor-pointer">
           {theme === "dark" ? (
             <BsToggleOn
               onClick={handleToggler}
@@ -58,6 +60,7 @@ const Header = () => {
             <FaCartShopping
               size={25}
               color={theme === "dark" ? "#fff" : "#333"}
+              onClick={() => navigate("/cart")}
             />
             <span>{cart.length}</span>
           </div>

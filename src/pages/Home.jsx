@@ -1,6 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Header from "../components/Header";
+import Genre from "../components/Genre";
+import GamesList from "../components/GamesList";
 
 const Home = () => {
   const { theme } = useSelector((state) => state.theme);
@@ -14,6 +16,8 @@ const Home = () => {
       } min-h-screen w-full`}
     >
       <Header />
+      <Genre />
+      <GamesList />
     </main>
   );
 };
