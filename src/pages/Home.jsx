@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import Header from "../components/Header";
 
 const Home = () => {
   const { theme } = useSelector((state) => state.theme);
@@ -7,9 +8,13 @@ const Home = () => {
   return (
     <main
       className={`${
-        theme === "dark" ? "bg-[#1E1E1E]" : "bg-[#F4F4F9]"
+        theme === "dark"
+          ? "bg-[#1E1E1E] text-white"
+          : "bg-[#F4F4F9] text-[#333333]"
       } min-h-screen w-full`}
-    ></main>
+    >
+      <Header />
+    </main>
   );
 };
 
