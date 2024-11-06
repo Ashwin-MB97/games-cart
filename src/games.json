@@ -1,0 +1,62 @@
+[
+    {
+        "title":"Cyberpunk 2077",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1730212296",
+        "genre":["RPG"],
+        "price":"2999"
+    },
+    {
+        "title":"Grand Theft Auto V",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1726606628",
+        "genre":["Action","Adventure"],
+        "price":"1249"
+    },
+    {
+        "title":"Red Dead Redemption 2",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1720558643",
+        "genre":["Action","Adventure"],
+        "price":"4999"
+    },
+    {
+        "title":"Cricket 24",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2358260/header.jpg?t=1725870557",
+        "genre":["Simulation","Sports"],
+        "price":"2999"
+    },
+    {
+        "title":"Forza Horizon 5",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1730763397",
+        "genre":["Action","Adventure","Racing","Simulation","Sports"],
+        "price":"3499"
+    },
+    {
+        "title":"Sid Meier’s Civilization® VI",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1730757374",
+        "genre":["Strategy"],
+        "price":"2499"
+    },
+    {
+        "title":"Dragon Age™: The Veilguard",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1845910/header.jpg?t=1730722613",
+        "genre":["Action","Adventure","RPG","Strategy"],
+        "price":"2999"
+    },
+    {
+        "title":"Football Manager 2024",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2252570/header.jpg?t=1702984758",
+        "genre":["Simulation","Sports","Strategy"],
+        "price":"3399"
+    },
+    {
+        "title":"Warframe",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/header.jpg?t=1730492093",
+        "genre":["Action","RPG"],
+        "price":"299"
+    },
+    {
+        "title":"DRAGON BALL: Sparking! ZERO",
+        "image":"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1790600/header.jpg?t=1730214507",
+        "genre":["Action"],
+        "price":"3999"
+    }
+]
